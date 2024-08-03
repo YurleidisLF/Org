@@ -1,0 +1,28 @@
+.campo {
+    margin: 24px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.campo label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;                                 /*Le da un margen entre el label y el input*/
+}
+
+.campo input {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.06); /*Le da sombra a el borde de cada input*/
+    border: none;                                   /*Quita el borde del cada input*/
+    padding: 30px 20px;
+    outline-color: #6278F7;                     /*Le da color cuando le damos click a un input*/
+    font-size: 16px;
+    box-sizing: border-box;       /*Dice que el tamaño de caja se va a mantener estable, no importa si se le añade un padding*/ 
+}
+
+.campo-color input {
+    height: 40px;
+    padding: 5px 20px;
+}
